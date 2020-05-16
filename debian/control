@@ -1,0 +1,16 @@
+Source: gotypist
+Section: text
+Priority: optional
+Maintainer: Martin Simon <me@martinsimon.me>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-golang,
+ golang-any,
+Standards-Version: 4.5.0
+Homepage: https://github.com/pb-/gotypist
+
+Package: gotypist
+Architecture: amd64
+Description: A touch-typing tutor
+ A simple touch-typing tutor that follows Steve Yegge's methodology of going
+ in fast, slow, and medium cycles.
